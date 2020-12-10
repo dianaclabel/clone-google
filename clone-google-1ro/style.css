@@ -1,5 +1,59 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+.list-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+}
+
+.nav-item {
+  margin: 5px;
+  padding: 10px 0;
+}
+#nav-item {
+  background-color: #2e73f2;
+  color: white;
+  padding: 5px 10px;
+}
+
+.icono {
+  max-width: 30px;
+  max-height: 30px;
+}
+.icono img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.imagen-principal{
+    max-width: 35vw;
+    margin:auto;
+    
+}
+.imagen-principal img{
+    max-width: 100%;
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+  
+}
+#buscador{
+    width:40vw;
+    padding: 8px;
+    border-radius:15px;
+    border: 1px solid rgb(133 133 133 / 38%);
+} 
+.botones{
+    display: flex;
+    justify-content: center;
+}
+

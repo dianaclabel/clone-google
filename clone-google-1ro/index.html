@@ -1,49 +1,55 @@
 <!DOCTYPE html>
-<html >
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>google</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <ul>
-            <li>Gmail</li>
-            <li>imágenes</li>
-            <li> </li>
-            <li>Iniciar Sesión</li>
+      <nav class="navegacion">
+        <ul class="list-nav">
+          <li class="nav-item">Gmail</li>
+          <li class="nav-item">imágenes</li>
+          <li class="nav-item">
+            <figure class="icono">
+              <img src="imagenes/icono-google-apps.png" alt="icono de google" />
+            </figure>
+          </li>
+          <li class="nav-item" id="nav-item">Iniciar Sesión</li>
         </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <figure>
-                <img src="imagenes/Google.jpg" alt="imagen de google">
-            </figure>
-            <form action="#">
-                <label for="buscador">
-                    <input type="text" id="buscador">
-                </label>
-            </form>
-            <BUtton type="button">Buscar con Google</BUtton>
-            <BUtton type="button">I'm Felling Lucky</BUtton>
-        </section>
-        <section></section>
+      <section>
+        <figure class="imagen-principal">
+          <img src="imagenes/Google.jpg" alt="imagen de google" />
+        </figure>
+        <form action="#" class="formulario">
+          <label for="buscador">
+            <input type="text" id="buscador" />
+          </label>
+        </form>
+        <br/>
+        <div class="botones">
+          <button  class="boton-1" type="button">Buscar con Google</button>
+          <button clas="boto-2" type="button">I'm Felling Lucky</button>
+        </div>
+      </section>
     </main>
     <footer>
-        <ul>
-            <li>Publicidad</li>
-            <li>Negocios</li>
-            <li>Acerca de</li>
-            <li>Cómo funciona la búsqueda</li>
-        </ul>
-        <ul>
-            <li>Privacidad</li>
-            <li>Condiciones</li>
-            <li>Preferencias</li>
-        </ul>
-
+      <ul>
+        <li>Publicidad</li>
+        <li>Negocios</li>
+        <li>Acerca de</li>
+        <li>Cómo funciona la búsqueda</li>
+      </ul>
+      <ul>
+        <li>Privacidad</li>
+        <li>Condiciones</li>
+        <li>Preferencias</li>
+      </ul>
     </footer>
-    
-</body>
+  </body>
 </html>
